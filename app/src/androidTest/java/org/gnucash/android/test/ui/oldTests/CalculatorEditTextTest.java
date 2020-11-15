@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.gnucash.android.test.ui;
+package org.gnucash.android.test.ui.oldTests;
 
 import android.Manifest;
 import android.content.Intent;

@@ -1,12 +1,12 @@
-package org.gnucash.android.test.ui.testFramework.tests;
+package org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.tests;
 
 import org.gnucash.android.model.Account;
 import org.gnucash.android.model.AccountType;
 import org.gnucash.android.model.Commodity;
 import org.gnucash.android.model.Transaction;
 import org.gnucash.android.model.TransactionType;
-import org.gnucash.android.test.ui.testFramework.screenObjects.AccountsScreenObject;
-import org.gnucash.android.test.ui.testFramework.screenObjects.TransactionScreenObject;
+import org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.screenObjects.AccountsScreenObject;
+import org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.screenObjects.TransactionScreenObject;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -26,12 +26,9 @@ public class TestUserFlow extends TestBase {
      *
      * Model: Weather has 4 accounts. Each account has a subaccount.
      * From each account there are transactions. The last test makes sure that all accounts show the correct balance.
-     * This scenario has  advantages and disadvantages. .
-
-
+     * This scenario has  advantages and disadvantages.
      */
-
-
+    
     /**
      Names for parent accounts.
      */
@@ -103,8 +100,9 @@ public class TestUserFlow extends TestBase {
 
 
     /**
-     * This test created 4 parent accounts. Assets account created by UI interaction and 3 other accounts created by code.
-     * I
+     * This test creates 4 parent accounts. Assets account created by UI interaction and 3 other accounts created by code.
+     * I created one account by UI interface to be sure that UI allows do it. Other 3 accounts created by code just because
+     * it faster and you able to prepare more test data for future tests.
      */
     @Test
     public void A_testCreateAccount(){
@@ -138,7 +136,10 @@ public class TestUserFlow extends TestBase {
         assertThat(newestAccount2.getName()).isEqualTo(incomeAccountName);
         assertThat(newestAccount3.getName()).isEqualTo(liabilitiesAccountName);
     }
-
+    /**
+     * This test creates 10 sub-accounts. The main purpose of the test to check that app allows us to create sub-accounts
+     * and create a more and less difficult hierarchy of parent-child accounts.
+     * */
     @Test
     public void B_crateSubAccounts(){
         accountsScreenObject.openAccount(asstesAccountName);

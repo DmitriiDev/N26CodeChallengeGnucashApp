@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.gnucash.android.test.ui;
+package org.gnucash.android.test.ui.oldTests;
 
 import android.Manifest;
 import android.content.ContentValues;
@@ -57,7 +57,6 @@ import org.junit.runner.RunWith;
 
 import java.math.BigDecimal;
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;

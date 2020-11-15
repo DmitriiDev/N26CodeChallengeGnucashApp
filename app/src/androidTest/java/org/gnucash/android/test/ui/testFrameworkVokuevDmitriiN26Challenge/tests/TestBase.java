@@ -1,10 +1,10 @@
-package org.gnucash.android.test.ui.testFramework.tests;
+package org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.tests;
 
 import android.Manifest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.rule.GrantPermissionRule;
 import android.support.v4.app.Fragment;
-import org.gnucash.android.test.ui.testFramework.screenObjects.BaseScreenObject;
+import org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.screenObjects.BaseScreenObject;
 import org.gnucash.android.test.ui.util.DisableAnimationsRule;
 import org.gnucash.android.ui.account.AccountsActivity;
 import org.gnucash.android.ui.account.AccountsListFragment;

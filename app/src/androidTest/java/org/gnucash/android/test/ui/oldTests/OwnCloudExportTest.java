@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.gnucash.android.test.ui;
+package org.gnucash.android.test.ui.oldTests;
 
 import android.Manifest;
 import android.content.Context;
@@ -66,7 +66,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
-import static org.gnucash.android.test.ui.AccountsActivityTest.preventFirstRunDialogs;
+import static org.gnucash.android.test.ui.oldTests.AccountsActivityTest.preventFirstRunDialogs;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;
 

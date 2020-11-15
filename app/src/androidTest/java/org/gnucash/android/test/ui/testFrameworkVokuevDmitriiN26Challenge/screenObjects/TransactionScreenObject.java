@@ -1,4 +1,4 @@
-package org.gnucash.android.test.ui.testFramework.screenObjects;
+package org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.screenObjects;
 
 import android.support.test.espresso.DataInteraction;
 import android.support.test.espresso.Espresso;

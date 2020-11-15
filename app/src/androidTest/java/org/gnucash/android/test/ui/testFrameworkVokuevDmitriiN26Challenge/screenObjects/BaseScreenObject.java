@@ -1,4 +1,4 @@
-package org.gnucash.android.test.ui.testFramework.screenObjects;
+package org.gnucash.android.test.ui.testFrameworkVokuevDmitriiN26Challenge.screenObjects;
 
 import android.content.Context;
 import android.content.SharedPreferences;
